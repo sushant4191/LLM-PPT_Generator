@@ -1,0 +1,25 @@
+ Slide Title: Introduction to Improved Predict Earliest Finish Time (iPEFT) Algorithm
+   Bullet Points:
+   - Designed for static task scheduling in heterogeneous computing environments
+   - Calculates task priority using a pessimistic cost table
+   - Features prediction with a critical node cost table
+   - Assigns optimal processor to nodes with at least one immediate successor as the critical node
+
+   Slide Title: iPEFT Algorithm Benefits
+   Bullet Points:
+   - Reduces schedule makespan without increasing its time complexity
+   - Demonstrates better performance compared to existing algorithms like PEFT and Heterogeneous Earliest Finish Time
+   - Improvements observed in terms of schedule length ratio, frequency of the best result, and robustness
+
+   Slide Title: Experimental Results
+   Bullet Points:
+   - Includes experiments on randomly generated graphs and real-world application graphs
+   - Comparisons based on scheduling length ratio, robustness, and frequency of the best result
+
+   Slide Title: Keywords
+   Bullet Points:
+   - DAG scheduling
+   - Heterogeneous systems
+   - List scheduling
+   - Static scheduling
+   - Task graphs
