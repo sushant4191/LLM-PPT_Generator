@@ -1,7 +1,7 @@
-from pptx import Presentation
-from pptx.util import Pt
-from pptx.enum.text import PP_ALIGN
-from pptx.dml.color import RGBColor
+from pptx import Presentation # type: ignore
+from pptx.util import Pt # type: ignore
+from pptx.enum.text import PP_ALIGN # type: ignore
+from pptx.dml.color import RGBColor # type: ignore
 
 def create_ppt_from_text(slides_file, output_ppt):
     # Create a PowerPoint presentation

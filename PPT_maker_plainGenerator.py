@@ -1,5 +1,5 @@
-from pptx import Presentation
-from pptx.util import Pt
+from pptx import Presentation # type: ignore
+from pptx.util import Pt # type: ignore
 
 # Function to read text from a file
 def read_text_from_file(file_path):
