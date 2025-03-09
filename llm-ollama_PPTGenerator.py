@@ -63,7 +63,7 @@ def generate_slide_content(text, model="mistral"):
     return response["message"]["content"]
 
 # File path (Change this to your actual file path)
-file_path = "/Users/sushant/Desktop/My Files/Project Files/PPTGenerator/sampleData.txt"
+file_path = "summarize.txt"
 
 # Read the text from the file
 text = read_text_from_file(file_path)
