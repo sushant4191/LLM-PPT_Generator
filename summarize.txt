@@ -1,0 +1,14 @@
+Summary
+This paper presents a novel list‐based scheduling algorithm called Improved Predict Earliest Finish
+Time for static task scheduling in a heterogeneous computing environment. The algorithm calcu-
+lates the task priority with a pessimistic cost table, implements the feature prediction with a crit-
+ical node cost table, and assigns the best processor for the node that has at least 1 immediate
+successor as the critical node, thereby effectively reducing the schedule makespan without
+increasing the algorithm time complexity. Experiments regarding aspects of randomly generated
+graphs and real‐world application graphs are performed, and comparisons are made based on
+the scheduling length ratio, robustness, and frequency of the best result. The results demonstrate
+that the Improved Predict Earliest Finish Time algorithm outperforms the Predict Earliest Finish
+Time and Heterogeneous Earliest Finish Time algorithms in terms of the schedule length ratio, fre-
+quency of the best result, and robustness while maintaining the same time complexity.
+K E Y W O RD S
+DAG scheduling, heterogeneous systems, list scheduling, static scheduling, task graphs
